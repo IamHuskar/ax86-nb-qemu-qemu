@@ -2,8 +2,6 @@
 /config-devices.*
 /config-all-devices.*
 /config-all-disas.*
-/config-host.*
-/config-target.*
 /config.status
 /config-temp
 /tools/virtiofsd/50-qemu-virtiofsd.json
@@ -11,10 +9,6 @@
 /trace-events-all
 /trace/generated-events.h
 /trace/generated-events.c
-/trace/generated-helpers-wrappers.h
-/trace/generated-helpers.h
-/trace/generated-helpers.c
-/trace/generated-tcg-tracers.h
 /ui/shader/texture-blit-frag.h
 /ui/shader/texture-blit-vert.h
 /ui/shader/texture-blit-flip-vert.h
@@ -45,7 +39,6 @@
 /qemu-keymap
 /qemu-monitor.texi
 /qemu-monitor-info.texi
-/qemu-version.h
 /qemu-version.h.tmp
 /module_block.h
 /scsi/qemu-pr-helper
@@ -130,14 +123,10 @@ docker-src.*
 *~
 *.ast_raw
 *.depend_raw
-trace.h
-trace.c
 trace-ust.h
 trace-ust.h
 trace-dtrace.h
 trace-dtrace.dtrace
-trace-root.h
-trace-root.c
 trace-ust-root.h
 trace-ust-root.h
 trace-ust-all.h
